@@ -12,7 +12,7 @@
 
 
 ___
-# 1 Принцип единственной ответственности (Single Responsibility Principle)
+# 1) Принцип единственной ответственности (Single Responsibility Principle)
 ## Классы должны иметь только одну причину для изменения.
 
 ```python
@@ -63,7 +63,7 @@ for product in repository.products:
 
 
 ___
-# 2 Принцип открытости/закрытости (Open/Closed Principle)
+# 2) Принцип открытости/закрытости (Open/Closed Principle)
 ## Программные сущности должны быть открыты для расширения, но закрыты для изменения.
 
 ```python
@@ -126,7 +126,7 @@ order3.process_order()
 
 
 ___
-# 3 Принцип подстановки Барбары Лисков (Liskov Substitution Principle)
+# 3) Принцип подстановки Барбары Лисков (Liskov Substitution Principle)
 ## Объекты в программе должны быть заменяемыми на экземпляры их подтипов без изменения корректности программы.
 
 ```python
@@ -179,7 +179,7 @@ order2.process_order()
 
 
 ___
-# 4 Принцип разделения интерфейса (Interface Segregation Principle)
+# 4) Принцип разделения интерфейса (Interface Segregation Principle)
 ## Клиенты не должны зависеть от интерфейсов, которые они не используют.
 
 ```python
@@ -248,7 +248,7 @@ notification_service.send_notification(user2, "Hello, Alice!")
 
 
 ___
-# 5 Принцип инверсии зависимостей (Dependency Inversion Principle)
+# 5) Принцип инверсии зависимостей (Dependency Inversion Principle)
 ## Зависимости должны строиться относительно абстракций, а не от конкретных реализаций.
 
 ```python
